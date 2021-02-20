@@ -9,7 +9,6 @@ box-sizing:border-box;
 }
 body{
 min-height:100vh;
-overflow: hidden;
 width:100vw;
 background:#121212;
 font-family:'Montserrat', cursive;
