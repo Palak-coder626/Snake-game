@@ -49,7 +49,7 @@ h1{
     animation:animateHeading 1s linear 1;            
 }
 .button-container{
-    margin: 5rem auto 2rem;
+    margin: 4rem auto 2rem;
     position:relative;
 }
 .button-container button{
@@ -58,7 +58,6 @@ h1{
      padding:1.5rem 5rem;
      font-size:2.5rem;
      outline:none;
-     overflow:hidden;
      cursor:pointer;
      color:#fff;
      border:none;
@@ -69,6 +68,8 @@ h1{
      border-bottom:4px solid rgba(255,255,255,0.1);
      
     transition:all 0.5s ease;
+    
+    overflow:hidden;
 }
 .button-container button:hover{
 letter-spacing:0.2rem;
